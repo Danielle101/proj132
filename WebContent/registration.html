@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Author: Danielle Hall 12/2016 | Baker College - Web 211-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Register Here</title>
+<script type="text/javascript" src="javascript/validate.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/reg.css" />
+</head>
+<div id="wrapper">
+<img src="assets/sitebanner.png" alt="Colorful Banner">
+</div>
+<nav>
+<ul class="menu">
+  <li><a href="home.html">Home</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+  <li><a href="products.html">Products</a></li>
+   <li><a href="services.html">Services</a></li>
+  <li><a href="resources.html">Resources</a>
+  <ul>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="links.html">Helpful Links</a></li>
+      </ul>
+      </li>
+  <li><a href="contact.html">Contact Us</a>
+  <ul>
+		<li><a href="registration.html">Registration Form</a></li>
+
+      </ul>
+      </li>
+  <li><a href="shoppingcart.html">Shopping Cart</a></li>
+
+</ul>
+</nav>
+<body>
+<div class="container">
+<div class="main">
+<form action="#" method="post" onsubmit="return ValidationEvent()">
+<h2>Register Here</h2><br>
+
+<label>Email :</label>
+<input id="email" name="email" placeholder="Valid Email" type="text">
+<label>Gender :</label>
+<input id="male" name="gender" type="radio" value="Male">
+<label>Male</label>
+<input id="female" name="gender" type="radio" value="Female">
+<label>Female</label>
+<label>Contact # (numeric entry only): </label>
+<input id="contact" name="contact" placeholder="Contact #" type="text">
+<input type="submit" value="Submit">
+<span>You must complete all fields to submit this form.</span>
+</form>
+</div>
+</div>
+</body>
+</html>
